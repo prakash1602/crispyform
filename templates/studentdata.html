@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Student Data</title>
+    {% include 'cdnlines.html' %}
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="offset-md-4 col-md-4">
+            <thread method="POST">
+                <h1>Please Enter Your Data</h1>
+                <table class="table table-boarder text-center">
+                    <thead class="bg-success text-white">
+                {{ form }}
+                </table>
+            </thread>
+
+                <center>
+                <input type="submit" value="login" class="btn btn-success">
+                    <input type="reset" value="clear" class="btn btn-danger">
+                    </center>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+
